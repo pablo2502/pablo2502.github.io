@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pablo Montealegre · Portafolio</title>
+  <meta name="description" content="Portafolio de Pablo Montealegre, estudiante de Ingeniería de Software en Bogotá. Desarrollo web, liderazgo de proyectos y bases de datos.">
+  <meta property="og:title" content="Pablo Montealegre · Portafolio">
+  <meta property="og:description" content="Estudiante de Ingeniería de Software · Desarrollo web · Liderazgo de proyectos">
+  <meta property="og:image" content="https://pablo2502.github.io/assets/foto.jpg">
+  <meta property="og:url" content="https://pablo2502.github.io/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%231c3040'/><text x='32' y='42' font-family='Arial' font-weight='700' font-size='26' fill='white' text-anchor='middle'>PM</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a href="#inicio" class="logo">PM<span>.</span></a>
+    <nav class="links" id="links">
+      <a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a>
+      <a href="#experiencia" data-i18n="nav.exp">Experiencia</a>
+      <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+      <a href="#habilidades" data-i18n="nav.skills">Habilidades</a>
+      <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="nav-right">
+      <button class="lang" id="lang" aria-label="Cambiar idioma / Change language">EN</button>
+      <button class="burger" id="burger" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- INICIO -->
+  <section class="hero" id="inicio">
+    <div class="wrap hero-in">
+      <div class="hero-text">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Hola, soy</p>
+        <h1>Pablo Montealegre</h1>
+        <p class="role" data-i18n="hero.role">Estudiante de Ingeniería de Software</p>
+        <p class="lead" data-i18n="hero.lead">Lidero equipos de desarrollo en FUSOFT y construyo aplicaciones web enfocadas en las personas que las usan. Me interesan el backend, las bases de datos y la gestión de proyectos tecnológicos.</p>
+        <div class="cta">
+          <a href="#proyectos" class="btn primary" data-i18n="hero.btnProjects">Ver proyectos</a>
+          <a href="assets/CV_Pablo_Montealegre_ES.pdf" class="btn ghost" id="cvBtn" download data-i18n="hero.btnCv">Descargar CV</a>
+        </div>
+        <ul class="hero-meta">
+          <li><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Bogotá, Colombia</li>
+          <li><svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zM5 13.2v4L12 21l7-3.8v-4L12 17l-7-3.8z"/></svg><span data-i18n="hero.semester">5.º semestre · Uniempresarial</span></li>
+        </ul>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/foto.jpg" alt="Foto de Pablo Montealegre" width="480" height="480">
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="sec" id="sobre-mi">
+    <div class="wrap two">
+      <div>
+        <h2 class="title" data-i18n="about.title">Sobre mí</h2>
+      </div>
+      <div class="about-body">
+        <p data-i18n="about.p1">Soy estudiante de quinto semestre de Ingeniería de Software en la Universidad de la Cámara de Comercio de Bogotá (Uniempresarial). Soy una persona proactiva, sociable y orientada al servicio.</p>
+        <p data-i18n="about.p2">En FUSOFT, la fábrica de soluciones tecnológicas de la universidad, pasé de practicante de desarrollo web a liderar equipos de estudiantes: coordino tareas, hago seguimiento a los objetivos y hablo directamente con los clientes para entender lo que necesitan.</p>
+        <p data-i18n="about.p3">Aprendo rápido, me adapto a entornos dinámicos y disfruto representar los proyectos del equipo ante clientes y en eventos como GoFest.</p>
+        <div class="stats">
+          <div><strong>3</strong><span data-i18n="about.s1">roles en FUSOFT</span></div>
+          <div><strong>B2-C1</strong><span data-i18n="about.s2">nivel de inglés</span></div>
+          <div><strong>2024</strong><span data-i18n="about.s3">inicio de la carrera</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section class="sec alt" id="experiencia">
+    <div class="wrap">
+      <h2 class="title" data-i18n="exp.title">Experiencia</h2>
+      <ol class="timeline">
+        <li>
+          <div class="when" data-i18n="exp.j1.when">2026 – Actualidad</div>
+          <h3 data-i18n="exp.j1.title">Líder y gestor de proyectos</h3>
+          <p class="org">FUSOFT · Uniempresarial</p>
+          <ul>
+            <li data-i18n="exp.j1.b1">Lidero equipos de estudiantes en el desarrollo de aplicaciones web y proyectos tecnológicos.</li>
+            <li data-i18n="exp.j1.b2">Coordino actividades, asigno tareas y hago seguimiento al cumplimiento de objetivos.</li>
+            <li data-i18n="exp.j1.b3">Mantengo comunicación constante con los clientes para identificar necesidades y requerimientos.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="when">2025 – 2026</div>
+          <h3 data-i18n="exp.j2.title">Practicante en desarrollo web</h3>
+          <p class="org">FUSOFT · Uniempresarial</p>
+          <ul>
+            <li data-i18n="exp.j2.b1">Desarrollo de páginas web con HTML y CSS.</li>
+            <li data-i18n="exp.j2.b2">Participación en la creación de la plataforma Evaluación 365.</li>
+            <li data-i18n="exp.j2.b3">Apoyo en mejoras de experiencia de usuario y presentación visual.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="when">2025 – 2026</div>
+          <h3 data-i18n="exp.j3.title">Promotor y atención al cliente en eventos empresariales</h3>
+          <p class="org">FUSOFT · GoFest</p>
+          <ul>
+            <li data-i18n="exp.j3.b1">Representación de proyectos tecnológicos ante visitantes y potenciales clientes.</li>
+            <li data-i18n="exp.j3.b2">Presentación de productos y servicios, y orientación sobre soluciones tecnológicas.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="sec" id="proyectos">
+    <div class="wrap">
+      <h2 class="title" data-i18n="proj.title">Proyectos</h2>
+      <p class="sub" data-i18n="proj.sub">Algunos de los proyectos en los que he trabajado.</p>
+      <div class="grid">
+
+        <article class="card">
+          <!-- Para usar una captura: reemplaza este div por <img class="thumb" src="assets/evaluacion365.png" alt="Evaluación 365"> -->
+          <div class="thumb ph"><span>Evaluación 365</span></div>
+          <div class="card-body">
+            <p class="tag">FUSOFT · 2025–2026</p>
+            <h3>Evaluación 365</h3>
+            <p data-i18n="proj.p1.desc">Plataforma web para hacer seguimiento a los resultados y consultar el historial de evaluaciones. Trabajé en el desarrollo de las páginas y en mejorar la experiencia de usuario.</p>
+            <ul class="chips"><li>HTML</li><li>CSS</li><li>UX</li></ul>
+            <div class="card-links">
+              <!-- Cambia el href por el enlace a la demo o al repositorio -->
+              <a href="#" class="soon" data-i18n="proj.soon">Demo próximamente</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb ph alt2"><span>Talento Humano</span></div>
+          <div class="card-body">
+            <p class="tag">Uniempresarial · 2026</p>
+            <h3 data-i18n="proj.p2.title">Sistema Integral de Evaluación por Competencias y Desempeño</h3>
+            <p data-i18n="proj.p2.desc">Sistema para el área de Talento Humano de Uniempresarial que permite evaluar a los colaboradores por competencias y desempeño.</p>
+            <ul class="chips"><li>Backend</li><li data-i18n="proj.db">Bases de datos</li></ul>
+            <div class="card-links">
+              <a href="#" class="soon" data-i18n="proj.soon">Demo próximamente</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb ph alt3"><span>FUSOFT</span></div>
+          <div class="card-body">
+            <p class="tag">FUSOFT · 2026</p>
+            <h3 data-i18n="proj.p3.title">Proyectos web para clientes</h3>
+            <p data-i18n="proj.p3.desc">Coordinación de equipos de estudiantes que desarrollan aplicaciones web para clientes reales: levantamiento de requerimientos, reparto de tareas y seguimiento hasta la entrega.</p>
+            <ul class="chips"><li data-i18n="proj.lead">Liderazgo</li><li data-i18n="proj.mgmt">Gestión de proyectos</li></ul>
+            <div class="card-links">
+              <a href="#" class="soon" data-i18n="proj.soon">Demo próximamente</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="sec alt" id="habilidades">
+    <div class="wrap">
+      <h2 class="title" data-i18n="skills.title">Habilidades</h2>
+      <div class="skills">
+        <div class="skill-box">
+          <h3 data-i18n="skills.tech">Técnicas</h3>
+          <ul class="chips big">
+            <li>HTML</li><li>CSS</li><li>Backend</li><li data-i18n="proj.db">Bases de datos</li><li>Microsoft Office</li>
+          </ul>
+        </div>
+        <div class="skill-box">
+          <h3 data-i18n="skills.soft">Competencias</h3>
+          <ul class="chips big">
+            <li data-i18n="skills.s1">Liderazgo de equipos</li>
+            <li data-i18n="skills.s2">Comunicación verbal</li>
+            <li data-i18n="skills.s3">Servicio al cliente</li>
+            <li data-i18n="skills.s4">Trabajo en equipo</li>
+            <li data-i18n="skills.s5">Resolución de problemas</li>
+            <li data-i18n="skills.s6">Aprendizaje rápido</li>
+          </ul>
+        </div>
+        <div class="skill-box">
+          <h3 data-i18n="skills.lang">Idiomas</h3>
+          <ul class="langs">
+            <li><span data-i18n="skills.es">Español</span><em data-i18n="skills.native">Nativo</em></li>
+            <li><span data-i18n="skills.en">Inglés</span><em>B2-C1</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMACIÓN -->
+  <section class="sec" id="formacion">
+    <div class="wrap two">
+      <div><h2 class="title" data-i18n="edu.title">Formación</h2></div>
+      <div class="edu">
+        <div class="edu-item">
+          <div class="when" data-i18n="edu.e1.when">2024 – Actualidad</div>
+          <h3 data-i18n="edu.e1.title">Ingeniería de Software</h3>
+          <p class="org">Uniempresarial</p>
+          <p data-i18n="edu.e1.desc">Quinto semestre. Desempeño destacado en Backend y Bases de Datos.</p>
+        </div>
+        <div class="edu-item">
+          <h3 data-i18n="edu.e2.title">Inglés como segunda lengua</h3>
+          <p data-i18n="edu.e2.desc">Nivel B2-C1. Comunicación en entornos profesionales.</p>
+        </div>
+        <div class="edu-item">
+          <div class="when">2024</div>
+          <h3 data-i18n="edu.e3.title">Bachiller académico</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="wrap contact-in">
+      <h2 data-i18n="contact.title">¿Hablamos?</h2>
+      <p data-i18n="contact.sub">Estoy abierto a prácticas, proyectos y nuevas oportunidades en desarrollo de software.</p>
+      <div class="contact-links">
+        <a href="mailto:px.monhappy@gmail.com" class="btn light">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>px.monhappy@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/pablo-montealegre-chaves-05967a375/" target="_blank" rel="noopener" class="btn outline-light">
+          <svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM8.3 18H5.7V9.7h2.6V18zM7 8.6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM18.3 18h-2.6v-4c0-1 0-2.2-1.4-2.2s-1.6 1-1.6 2.1V18h-2.6V9.7h2.5v1.1c.4-.7 1.2-1.4 2.5-1.4 2.7 0 3.2 1.8 3.2 4.1V18z"/></svg>LinkedIn
+        </a>
+        <a href="https://github.com/pablo2502" target="_blank" rel="noopener" class="btn outline-light">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">© <span id="year">2026</span> Pablo Montealegre · Bogotá, Colombia</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
